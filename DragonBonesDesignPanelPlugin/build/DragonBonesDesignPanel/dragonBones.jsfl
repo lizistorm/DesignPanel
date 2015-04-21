@@ -1492,12 +1492,12 @@ var dragonBones;
                     {
                         displayType = DragonBones.V_IMAGE;
                         isGraphicBone = true;
-                        hasDisplay = (boneSymbol.width > 0 || boneSymbol.height > 0);
+                        hasDisplay = true;//(boneSymbol.width > 0 || boneSymbol.height > 0);
                     }
                     else
                     {
                         displayType = DragonBones.V_IMAGE;
-                        hasDisplay = (boneSymbol.width > 0 || boneSymbol.height > 0);
+                        hasDisplay = true;//(boneSymbol.width > 0 || boneSymbol.height > 0);
                     }
                     break;
 
